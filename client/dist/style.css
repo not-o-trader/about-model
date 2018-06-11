@@ -1,0 +1,64 @@
+body {
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+tr, td {
+  display: inline-block;
+  font-size: 14px;
+  padding: 4px;
+}
+
+.about-title {
+  font-size: 18 px;
+  font-weight: bold;
+  margin: 5px;
+  padding-bottom: 5px;
+}
+
+.car-title {
+  font-size: 18 px;
+  font-weight: bold;
+  padding: 7px;
+}
+
+.container {
+  margin: 15px;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+
+.details-table {
+  column-count: 2;
+  max-width: 670px;
+}
+
+.general-info, .this-car-info {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  max-width: 650px;
+  padding: 5px;
+}
+
+.paragraphs {
+  margin: 12px;
+}
+
+.table-row {
+  border-top: 1px solid #ccc;
+}
+
+.td-left {
+  width: 160px;
+}
+
+.td-right {
+  text-align: right;
+  font-weight: bold;
+  width: 110px;
+}
+
+.unavailable {
+  color: #777
+}

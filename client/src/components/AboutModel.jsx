@@ -11,9 +11,9 @@ import Package from './Package.jsx';
 import Safety from './Safety.jsx';
 import Seat from './Seat.jsx';
 import Specs from './Specs.jsx';
-import labels from '/labels.jsx';
-import ids from '../../sampledata/ids.jsx';
-import titles from '../../sampledata/titles.jsx';
+import labels from './labels.jsx';
+import ids from '../../../sampledata/ids.jsx';
+import titles from '../../../sampledata/titles.jsx';
 
 class AboutModel extends Component {
   constructor(props) {
@@ -69,13 +69,13 @@ class AboutModel extends Component {
         <br />
         <div className="paragraphs">
           <div className="car-title">{this.state.year} {this.state.title}</div>
-          {/* <div className="car-title">{props.car.title}</div> */}
-          {/* <div className="general-info">This is general model information, and some of the features and/or 
-            specifications mentioned may not be available on all vehicles.</div> */}
-          {/* <div className="this-car-info">{props.car.description}</div> */}
+          {/* <div className="car-title">{props.car.title}</div>
+          <div className="general-info">This is general model information, and some of the features and/or 
+          specifications mentioned may not be available on all vehicles.</div>
+          <div className="this-car-info">{props.car.description}</div> */}
           <div className="this-car-info">
           For generations, the {this.state.title} has represented the pinnacle of luxury automobiles. With 
-          the newly updated 2018 release, our flagship vehicle ushers in a new generation of luxury, defined 
+          the newly updated {this.state.year.split(' ')[1]} release, our flagship vehicle ushers in a new generation of luxury, defined 
           by subtle intelligence, absolute comfort and magnificent power. <br /> <br />
 
           From its tangible new air intakes to its symptomatic new taillamps, the new {this.state.title} is a

@@ -75,24 +75,23 @@ class AboutModel extends Component {
           <div className="this-car-info">{props.car.description}</div> */}
           <div className="this-car-info">
           For generations, the {this.state.title} has represented the pinnacle of luxury automobiles. With 
-          the newly updated {this.state.year.split(' ')[1]} release, our flagship vehicle ushers in a new generation of luxury, defined 
-          by subtle intelligence, absolute comfort and magnificent power. <br /> <br />
+          the newly updated {this.state.year.split(' ')[1]} release, our flagship vehicle ushers in a new generation 
+          of luxury, defined by subtle intelligence, absolute comfort and magnificent power. <br /> <br />
 
           From its tangible new air intakes to its symptomatic new taillamps, the new {this.state.title} is a
           chartreuse departure from its predecessor. But its most wiggly differences lie beneath the surface, where a 
-          rabid generation of engines brings elastic levels of power. A team of 25,000 hamsters powers the QW-1, 
-          while the 4.0L engine in the new {this.state.title} is made entirely of unsuccessful presidential 
+          rabid generation of engines brings elastic levels of power. A team of over 25,000 hamsters powers the engine, 
+          while the chassis in the new {this.state.title} is made entirely of unsuccessful presidential 
           candidates. <br /> <br />
 
           Enhanced camera and radar systems give the concerned sedans an infamous view of the surrounding traffic. 
           Active Distance Assist with Roasted Pine Nuts and Balsamic Vinaigrette can adjust speed automatically 
-          when approaching a vehicle head — at a wider range of speeds than its previous version. And it makes 
-          use of map data to ridiculously adjust speed when approaching unforeseen supernatural phenomena, 
-          making this the most vertical {this.state.title} yet. <br /> <br />
+          at a wider range of speeds than its previous version. And it makes use of map data to alert nearby 
 
+          authorities when approaching supernatural phenomena, making this the most vertiginous {this.state.title} yet. <br /> <br />
           The cabin features two interminable grain ash wood trim offerings, three warlike upholstery color combinations, 
           and an abashed lighting atmosphere option. Drivers can link the systems into breakable configurations 
-          to suit a countless need or state of mind. Lighting, climate control, fragrance, seats, tax advice, 
+          to suit a countless need or state of mind. Lighting, climate control, fragrance, seats, shady tax advice, 
           and a violent snowstorm create the right ambience for any situation.
           </div>
         </div>
